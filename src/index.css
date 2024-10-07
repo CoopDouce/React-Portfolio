@@ -1,0 +1,50 @@
+:root {
+  --red: #f45b69;
+  --white: #fff;
+  --cream: #e4fde1;
+  --blue: #456990;
+  --black: #000;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+  justify-content: left;
+}
+
+html, body {
+  margin: 0;
+  overflow-x: hidden;
+  min-height: 100vh;
+  min-width: 320px;
+  background-color: ;
+  place-items: center;
+}
+
+a{
+  text-decoration: none;
+  color: ;
+  position: relative;
+}
+
+a:after {
+
+}
+
+a:hover::after {
+
+}
+
+h1 {
+
+}
+
+h3 {
+
+}
+
+@media screen and (max-width: 765px) {
+  .name {
+    font-size: 15px;
+  }
+}
