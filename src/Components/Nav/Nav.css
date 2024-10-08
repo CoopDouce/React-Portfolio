@@ -1,0 +1,29 @@
+.navList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 70px;
+    background-color: #333;
+    color: #fff;
+}
+
+.navItem {
+    list-style: none;
+    padding: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+}
+
+@media screen and (max-width: 870px) {
+    .navList {
+      flex-direction: column;
+      justify-content: center;
+    }
+    .navItem {
+      padding: 5px;
+    }
+}

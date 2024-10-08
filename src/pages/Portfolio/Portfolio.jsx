@@ -1,14 +1,9 @@
+import Project from "C:/Users/rapha/BootCamp/Projects/React-Portfolio/src/Components/Project/Project.jsx";
 import "./Portfolio.css"; 
 import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Project from "../Components/Project.tsx";
-import newbieFitImg from "./newbieFitImg.jpg";
-import weatherAppImg from "./weatherAppImg.jpg";
-import READMEImg from "./READMEImg.jpg";
-import BYOCImg from "./BYOCImg.jpg";
-import EmployeeImg from "./EmployeeImg.jpg";
-import PreworkImg from "./PreworkImg.jpg";
+import { newbieFitImg, weatherAppImg, READMEImg, BYOCImg, EmployeeImg, PreworkImg } from "C:/Users/rapha/BootCamp/Projects/React-Portfolio/src/assets";
 
 const Portfolio = () => {
     const projects = [

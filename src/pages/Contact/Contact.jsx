@@ -8,7 +8,7 @@ const Contact = () => {
     const [message, setMessage] = useState("");
     const [error, setError] = useState("");
 
-    const validateSetName = (value: string) => {
+    const validateSetName = (e) => {
         if (value === "") {
             setError("Name is required");
         } else {
@@ -17,7 +17,7 @@ const Contact = () => {
         setName(value);
     };
 
-    const validateSetEmail = (value: string) => {
+    const validateSetEmail = (e) => {
         if (value === "") {
             setError("Email is required");
         } else {
@@ -26,7 +26,7 @@ const Contact = () => {
         setEmail(value);
     };
 
-    const validateSetMessage = (value: string) => {
+    const validateSetMessage = (e) => {
         if (value === "") {
             setError("Message is required");
         } else {
@@ -35,7 +35,7 @@ const Contact = () => {
         setMessage(value);
     };
 
-    const handleSubmit = (e: any) => {
+    const handleSubmit = (e) => {
         e.preventDefault();
         if (name === "" || email === "" || message === "") {
             setError("All fields are required");

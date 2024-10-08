@@ -21,9 +21,9 @@ html, body {
   place-items: center;
 }
 
-a{
+a {
   text-decoration: none;
-  color: ;
+  color: var(--red);
   position: relative;
 }
 
