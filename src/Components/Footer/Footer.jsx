@@ -11,7 +11,7 @@ const Footer = () => {
         <a className="social-icons"
             href="https://profile.indeed.com/p/cooperd-5f1spgk"
         >
-            <SaIndeed style={{ fontSize: "30px" }} />
+            <SiIndeed style={{ fontSize: "30px" }} />
         </a>
         <a className="social-icons"
             href="https://github.com/CoopDouce"

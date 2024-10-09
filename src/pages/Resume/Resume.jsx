@@ -11,13 +11,13 @@ const Resume = () => {
                 paddingTop: "25px",
             }}
             >
-                Click for my&nbsp;
+                Click to visit my&nbsp;
                 <a
-                href="/assets/Resume.docx"
+                href="https://profile.indeed.com/p/cooperd-5f1spgk"
                 download
                 className="resume-link"
                 >
-                resume
+                Resume
                 </a>
             </p>
             <div className="resume-container">

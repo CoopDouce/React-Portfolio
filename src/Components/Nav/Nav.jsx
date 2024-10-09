@@ -3,6 +3,7 @@ import './Nav.css';
 
 function Nav() {
   const location = useLocation();
+  const currentPage = location.pathname;
 
   return (
     <nav className="nav-container">
@@ -24,7 +25,7 @@ function Nav() {
         </li>
         <li className="nav-item">
           <Link to="/Resume" className={currentPage === "/contact" ? "activeLink" : "link"}>
-            resume
+            Resume
           </Link>
         </li>
         </ul>

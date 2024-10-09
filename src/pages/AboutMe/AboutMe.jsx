@@ -1,11 +1,11 @@
 import "./AboutMe.css";
-import ProfilePic from "../../assets/ProfilePic.jpg";
+import ProfilePic from "../../../assets/images/ProfilePic.jpg";
 
 const AboutMe = () => {
     return (
-        <div style={{paddingTop:"25px"}}>
-            <h1>About Me</h1>
-            <img src={ProfilePic} alt="Profile Pic" />
+        <div className="aboutMe">
+                <h1 className="AM-Title">About Me</h1>
+                <img src= { ProfilePic } alt="Profile Pic" />
         <div className="about-me-content">
             <p>
             I am a software engineer with a passion for web development. I have experience with React, Node.js, and Express.js. I am currently learning TypeScript and GraphQL. I am excited to learn new technologies and build amazing web applications.

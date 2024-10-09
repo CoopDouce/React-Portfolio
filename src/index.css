@@ -1,9 +1,9 @@
 :root {
-  --red: #f45b69;
   --white: #fff;
-  --cream: #e4fde1;
+  --grey: #B7B7B7;
   --blue: #456990;
   --black: #000;
+  --dark-blue: #0e1b29;
 }
 
 * {
@@ -17,13 +17,13 @@ html, body {
   overflow-x: hidden;
   min-height: 100vh;
   min-width: 320px;
-  background-color: ;
+  background-color: var(--grey);
   place-items: center;
 }
 
 a {
   text-decoration: none;
-  color: var(--red);
+  color: var(--blue);
   position: relative;
 }
 

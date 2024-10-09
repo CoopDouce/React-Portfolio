@@ -3,7 +3,12 @@ import "./Portfolio.css";
 import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { newbieFitImg, weatherAppImg, READMEImg, BYOCImg, EmployeeImg, PreworkImg } from "C:/Users/rapha/BootCamp/Projects/React-Portfolio/src/assets";
+import newbieFitImg from "../../../assets/images/newbieFitImg.jpg";
+import PreworkImg from "../../../assets/images/PreworkImg.jpg";
+import EmployeeImg from "../../../assets/images/EmployeeImg.jpg";
+import READMEImg from "../../../assets/images/READMEImg.jpg";
+import BYOCImg from "../../../assets/images/BYOCImg.jpg";
+import weatherAppImg from "../../../assets/images/weatherAppImg.jpg";
 
 const Portfolio = () => {
     const projects = [
@@ -11,7 +16,6 @@ const Portfolio = () => {
             title: "NewbieFit",
             image: newbieFitImg,
             githubLink: "https://github.com/CoopDouce/NewbieFit-PJ1",
-            deployedLink: "https://coopdouce.github.io/NewbieFit-PJ1/",
         },
         {
             title: "Weather App",
