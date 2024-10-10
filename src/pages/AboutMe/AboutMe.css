@@ -1,23 +1,20 @@
 img {
     height: 150px;
     width: 150px;
-    margin: 40px;
+    margin: 20px;
+    display: block;
 }
 
 .aboutMe {
-    height: 400px;
-    padding-top: 25px;
-    display: flex;
+    height: 500px;
+    display: block;
+    justify-content: center;
+    align-content: center;
     background-color: var(--grey);
 }
 
 .about-me-content {
-    justify-content: center;
-    align-content: center;
-    padding: 25px;
     margin: 20px 20px 20px 20px;
-    width: 1500px;
-    height: 300px;
     font-size: 105%;
     font-weight: 800;
     color: var(--dark-blue);
@@ -26,4 +23,13 @@ img {
 .AM-Title {
     margin: 40px 20px 20px 50px;
     color: var(--dark-blue);
+}
+
+@media screen and (max-width: 980px) {
+    .aboutMe {
+        height: 600px;
+    }
+    .about-me-content {
+        flex-direction: column;
+    }
 }
